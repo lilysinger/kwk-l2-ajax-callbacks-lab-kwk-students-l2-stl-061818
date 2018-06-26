@@ -1,4 +1,4 @@
-$('#submitButton').click(function(){
+$(document).ready(function(){
      input = $('#searchRepositories').val()
      console.log(input)
      searchTerms(input)
