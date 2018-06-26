@@ -4,9 +4,9 @@ $(document).ready(function (){
 let url; 
  let input 
  $('#submitButton').click(function(){
-     input = $('#searchTerms').val()
+     input = $('#searchRepositories').val()
      console.log(input)
-     searchRepositories(input)
+     searchTerms(input)
  })
 
   function searchTerms(input){
