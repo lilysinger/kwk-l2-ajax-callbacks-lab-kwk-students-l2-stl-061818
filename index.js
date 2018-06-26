@@ -2,7 +2,7 @@ $(document).ready(function (){
   
 });
 
-  function searchGif(input){
+  function searchTerms(input){
         $.get({
             url: 'https://api.giphy.com/v1/gifs/search',
             dataType: 'json',
