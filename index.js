@@ -6,7 +6,7 @@ let url;
  $('#submitButton').click(function(){
      input = $('#searchTerms').val()
      console.log(input)
-     searchGif(input)
+     searchRepositories(input)
  })
 
   function searchTerms(input){
