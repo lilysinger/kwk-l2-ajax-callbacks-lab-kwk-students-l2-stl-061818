@@ -1,7 +1,4 @@
 $(document).ready(function(){
-     input = $('#searchRepositories').val()
-     console.log(input)
-     searchTerms(input)
  })
 
   function searchTerms(input){
