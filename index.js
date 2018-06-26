@@ -1,8 +1,13 @@
 $(document).ready(function (){
   
-});
-
-$(#)
+} 
+let url; 
+ let input 
+ $('#submitButton').click(function(){
+     input = $('#searchText').val()
+     console.log(input)
+     searchGif(input)
+ })
 
   function searchTerms(input){
         $.get({
