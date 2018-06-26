@@ -4,7 +4,7 @@ $(document).ready(function (){
 let url; 
  let input 
  $('#submitButton').click(function(){
-     input = $('#searchText').val()
+     input = $('#searchTerms').val()
      console.log(input)
      searchGif(input)
  })
