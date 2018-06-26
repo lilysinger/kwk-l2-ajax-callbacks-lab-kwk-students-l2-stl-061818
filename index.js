@@ -2,6 +2,8 @@ $(document).ready(function (){
   
 });
 
+$(#)
+
   function searchTerms(input){
         $.get({
             url: 'https://api.giphy.com/v1/gifs/search',
