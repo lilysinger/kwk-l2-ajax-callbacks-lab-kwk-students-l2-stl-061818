@@ -3,7 +3,7 @@ $(document).ready(function (){
 });
 
   function searchGif(input){
-        $.ajax({
+        $.get({
             url: 'https://api.giphy.com/v1/gifs/search',
             dataType: 'json',
             data: {
