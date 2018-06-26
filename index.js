@@ -1,6 +1,4 @@
-let url; 
- let input 
- $('#submitButton').click(function(){
+$('#submitButton').click(function(){
      input = $('#searchRepositories').val()
      console.log(input)
      searchTerms(input)
