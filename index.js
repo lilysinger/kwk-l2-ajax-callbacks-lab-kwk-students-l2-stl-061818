@@ -10,5 +10,4 @@ $(document).ready(function (){
               api_key: '6ed527871fd940718d7913b1cf4751f6',
               q: input ,
               limit: 3,
-              rating: 'PG-13'
             },
